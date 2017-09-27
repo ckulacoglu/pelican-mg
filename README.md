@@ -1,7 +1,7 @@
 mg
 ==============
 
-A minimal theme for [Pelican](http://blog.getpelican.com/) that uses uikit.
+Turkish language version of a minimal theme for [Pelican](http://blog.getpelican.com/) that uses uikit.
 The theme is suited for a single author blog without tag pages nor
 blogroll. Feeds are provided via ATOM.
 
@@ -11,11 +11,11 @@ Screenshots
 
 Here is how the home page look like
 
-![mg home page screenshot](https://raw.githubusercontent.com/lucachr/pelican-mg/master/home-page-screenshot.png)
+![mg home page screenshot](https://raw.githubusercontent.com/ckulacoglu/pelican-mg-tr/master/home-page-screenshot.png)
 
 This is the article page
 
-![mg article page screenshot](https://raw.githubusercontent.com/lucachr/pelican-mg/master/article-screenshot.png)
+![mg article page screenshot](https://raw.githubusercontent.com/ckulacoglu/pelican-mg-tr/master/article-screenshot.png)
 
 The home page on a smartphone 
 
@@ -24,11 +24,11 @@ The home page on a smartphone
 
 This is the article layout on a smartphone screen
 
-![mg article page smartphone top screenshot](https://raw.githubusercontent.com/lucachr/pelican-mg/master/article-page-smartphone-top.png)
+![mg article page smartphone top screenshot](https://raw.githubusercontent.com/ckulacoglu/pelican-mg-tr/master/article-page-smartphone-top.png)
 
 Live Example
 --------------
-Check out [my blog](http://www.devsbytes.com).
+Check out [my blog](http://blog.xonom.com).
 
 Features
 --------------
@@ -43,6 +43,7 @@ Features
 * Analytics with Google Analytics, PIWIK and StatCounter.
 * Share buttons built with share urls.
 * Custom footer notice.
+* Turkish language support
 
 Settings
 --------------
