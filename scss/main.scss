@@ -1,5 +1,5 @@
-$baseGreen: #39B39D;
-$accentGreen: #28D1B2;
+$baseGreen: #2698CF;
+$accentGreen: #2698CF;
 $feedOrange: #FF6600;
 $twitterBlue: #00B0ED;
 $facebookBlue: #3B5999;
@@ -13,7 +13,7 @@ $ancorOver: #0099cc;
 // Base style
 
 html {
-    font: 400 14px / 20px "Oswald", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 400 14px / 20px "Noto Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 a {
@@ -29,6 +29,17 @@ a {
     text-transform: uppercase;
 }
 
+.uk-article-title {
+    font: {
+	family: "Open Sans", sans-serif;
+    }
+}
+
+.uk-heading-large {
+    font: {
+	family: "Open Sans", sans-serif;
+    }
+}
 .uk-article-meta {
     & > a {
     color: $textGrey;
@@ -84,7 +95,7 @@ a {
 }
 
 .uk-nav-offcanvas {
-    & > li > a {
+    & > ul > li > a {
         border-top: 1px solid rgba(0,0,0,.3);
         box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
         text-shadow: 0 1px 0 rgba(0,0,0,.5);
@@ -122,7 +133,7 @@ a {
 
 .mg-brand {
     font: {
-        family: "Open Sans", sans-serif;
+        family: "Roboto", sans-serif;
         style: italic;
         size: 2.5em;
     }
@@ -146,8 +157,8 @@ a {
 
 .mg-tagline {
     font: {
-        family: "Open Sans", sans-serif;
-        weight: 800;
+        family: "Roboto", sans-serif;
+        weight: 900;
     }
     padding: 1em 0 0;
     color: white;
@@ -199,7 +210,7 @@ a {
 }
 
 .mg-icons-small {
-    &>li>a {
+    &>ul>li>a {
         color: white;
 
         &:hover {

@@ -1,5 +1,5 @@
 html {
-  font: 400 14px / 20px "Oswald", "Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font: 400 14px / 20px "Noto Sans", "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 a {
   color: #33b5e5; }
@@ -8,6 +8,12 @@ a {
 
 .uk-navbar-brand {
   text-transform: uppercase; }
+
+.uk-article-title {
+  font-family: "Open Sans", sans-serif; }
+
+.uk-heading-large {
+  font-family: "Open Sans", sans-serif; }
 
 .uk-article-meta > a {
   color: #444; }
@@ -32,10 +38,10 @@ a {
   color: #444; }
 
 .uk-nav-side > li.uk-active > a {
-  background: #28D1B2; }
+  background: #2698CF; }
 
 .uk-pagination > .uk-active > span {
-  background: #28D1B2; }
+  background: #2698CF; }
 
 .uk-icon-medium {
   margin-right: 0.3em; }
@@ -45,11 +51,11 @@ a {
   .uk-navbar-toggle:hover, .uk-navbar-toggle:focus {
     color: white; }
 
-.uk-nav-offcanvas > li > a {
+.uk-nav-offcanvas > ul > li > a {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
-  .uk-nav-offcanvas > li > a:last-child {
+  .uk-nav-offcanvas > ul > li > a:last-child {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
 .uk-nav-offcanvas .uk-nav-divider {
   border-top: 1px solid rgba(255, 255, 255, 0.01);
@@ -67,10 +73,10 @@ a {
 
 .mg-header {
   padding: 1em 0;
-  background-color: #39B39D; }
+  background-color: #2698CF; }
 
 .mg-brand {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 2.5em;
   padding-left: 0;
@@ -85,8 +91,8 @@ a {
       font-size: 2em; } }
 
 .mg-tagline {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   padding: 1em 0 0;
   color: white; }
   @media (min-width: 1220px) {
@@ -123,9 +129,9 @@ a {
 .mg-icons-small {
   margin-bottom: 1em; }
 
-.mg-icons-small > li > a {
+.mg-icons-small > ul > li > a {
   color: white; }
-  .mg-icons-small > li > a:hover {
+  .mg-icons-small > ul > li > a:hover {
     color: white; }
 .mg-icons-small .uk-icon-rss {
   background-color: #FF6600; }
